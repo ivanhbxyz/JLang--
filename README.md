@@ -25,9 +25,7 @@ JLang--
     - <classes>.java
     - test-files
         |
-        - basicFails.txt
-        - basicRegex.txt
-        - basicTerminals.txt
+        - <testName>.txt
     
 ```
 
