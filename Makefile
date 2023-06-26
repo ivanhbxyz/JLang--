@@ -4,6 +4,7 @@ JFLEX=$(JAVA) -jar jflex-full-1.8.2.jar
 CUPJAR=./java-cup-11b.jar
 CUP=$(JAVA) -jar $(CUPJAR)
 CP=.:$(CUPJAR)
+SRC=./src
 
 default: run
 
@@ -25,7 +26,7 @@ run: Phase2_Tester
 all: Lexer.java parser.java $(FILE:java=class)
 
 Phase2_Tester: all
-	$(JAVA) -cp $(CP) ScannerTest Phase2_myTester.txt > Phase2_myTester-output.txt
+	$(JAVA) -cp $(CP) ScannerTest ./test-files/Phase2_myTester.txt > ./test-files/Phase2_myTester-output.txt
 
 clean:
 		rm -f *.class *~ *.bak Lexer.java parser.java sym.java *-output.txt
