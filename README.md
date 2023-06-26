@@ -6,9 +6,9 @@
 
 ### Requirements
 - Java
-- JFlex
+- [JFlex](https://github.com/jflex-de/jflex/releases)
 - Make
-- CUP
+- [CUP](http://www2.cs.tum.edu/projects/cup/install.php)
 
 ### Project Structure
 
