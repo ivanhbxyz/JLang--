@@ -1,52 +1,24 @@
-# JLang--
-
-
-
-
-
-### Requirements
-- Java
-- [JFlex](https://github.com/jflex-de/jflex/releases)
-- Make
-- [CUP](http://www2.cs.tum.edu/projects/cup/install.php)
-
-### Project Structure
-
-```
-JLang--
-    - java-cup-11b-runtime.jar
-    - java-cup-11b.jar
-    - jflex-full-1.8.2.jar
-    - LexerTest.java
-    - Makefile
-    - README.md
-    - tokens.jflex
-    - grammar.cup
-    - test-files
-        |
-        - basicFails.txt
-        - basicRegex.txt
-        - basicTerminals.txt
-    
-```
-
+Name: Ivan Huerta-Bernal, iah190001
+Course: CS 4386
+Compiler Project Assignment 2, Part 1
+================
 
 To run project:
-	If wanting to re-make the output-*.txt files run; in your terminal run
+	If wanting to re-make the *-output.txt (in your terminal) run...
 
 	$ make clean
 	
-	To re-run and compile Lexer, parser and sym files in your terminal run.
+	To re-run, compile the content and make the outputf files run...
 
 	$ make
 
 ===============
 
 The following files should have been created
-
-basicTerminals-output.txt
-basicRegex-output.txt
-basicFails-output.txt
+    
+    Phase1_expressions-output.txt
+    Phase1_statements-output.txt
+    Phase1_order_of_ops-output.txt
 
 =================
 

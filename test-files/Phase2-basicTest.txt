@@ -1,0 +1,60 @@
+    class Person {
+
+        char name[32];
+        final char gen = 'f';
+        final bool confirm = true;
+        final int birthMonth = 01;
+        int birthYear = 1999;
+        int years[8];
+        char letter;
+        char letterTwo = 'z';
+
+        void doesNothing(){
+            if(anID()) {
+                return ; 
+            }
+
+            if( anID()  ) {
+                int nothing;
+                final bool nothingEither;
+                anID();
+            }
+
+        };
+        
+        void alsoDoesNothing(){}
+
+
+        char getGen(int time){
+            aName = 7;
+
+        };
+
+        void setAge(int a, char nothing, char nothingTwo[]){
+
+        }
+
+        int getAge(){
+
+            while( anIDToo (8,true,'c', 3.3) ){
+                while(true){
+                    read(daisy,ivan);
+
+                    return false;
+
+                }
+            }
+
+            if( myID(5,5.5) ) {
+                final int anInd;
+                myMyID();
+                print(6,2.2, Ivan);
+
+            } else {
+                final int anInd;
+                myMyID(anID( anID[inside("hello", 5.5)] ));
+                printline(ivan, 3, true);
+
+            }
+        }
+    }
