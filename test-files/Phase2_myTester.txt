@@ -1,0 +1,29 @@
+class AnotherTest {
+
+    void simpleMethod(char name[], bool response) {
+
+        if(working["word"]){
+            final int playerCount = 4;
+            bool responses[16];
+            bool game = ((ivan));           
+        }
+
+        return (bool) "cat word";
+    };
+
+    int testingArith() {
+        int anIDArr[10];
+        final bool response = ((char) (((bool) ivan)));
+
+        \\Stmts
+        ivan++;
+        hb--;
+
+        return ivan - 3;
+        return hb * 100;
+        return (3 * 2) + 2;
+        
+
+    }
+
+}
