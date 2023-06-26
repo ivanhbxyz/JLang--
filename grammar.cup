@@ -1,5 +1,5 @@
 import java_cup.runtime.*;
-/**Place Terminals Here */
+/**Language Terminals */
 // 1
 terminal CLASS;     // 2
 terminal VOID;      // 3

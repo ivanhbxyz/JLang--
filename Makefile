@@ -20,12 +20,12 @@ run: myLexerRun
 all: Lexer.java parser.java $(FILE:java=class)
 
 myLexerRun: all
-		$(JAVA) -cp $(CP) LexerTest basicFails.txt > basicFails-output.txt
-		$(JAVA) -cp $(CP) LexerTest basicRegex.txt > basicRegex-output.txt
-		$(JAVA) -cp $(CP) LexerTest basicTerminals.txt > basicTerminals-output.txt
+		$(JAVA) -cp $(CP) LexerTest ./test-files/basicFails.txt > ./test-files/basicFails-output.txt
+		$(JAVA) -cp $(CP) LexerTest ./test-files/basicRegex.txt > ./test-files/basicRegex-output.txt
+		$(JAVA) -cp $(CP) LexerTest ./test-files/basicTerminals.txt > ./test-files/basicTerminals-output.txt
 
 clean:
-		rm -f *.class *~ *.bak Lexer.java parser.java sym.java *-output.txt
+		rm -f *.class *~ *.bak Lexer.java parser.java sym.java *-output.txt ./test-files/*-output.txt
 
 Lexer.java: tokens.jflex
 		$(JFLEX) tokens.jflex

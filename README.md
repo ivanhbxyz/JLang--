@@ -12,4 +12,44 @@
 
 ### Project Structure
 
-- A Change
+```
+JLang--
+    - test-files
+        |
+        - basicFails.txt
+        - basicRegex.txt
+        - basicTerminals.txt
+    - grammar.cup
+    - java-cup-11b-runtime.jar
+    - java-cup-11b.jar
+    - jflex-full-1.8.2.jar
+    - LexerTest.java
+    - Makefile
+    - README.md
+    -tokens.jflex
+
+```
+
+
+To run project:
+	If wanting to re-make the output-*.txt files run; in your terminal run
+
+	$ make clean
+	
+	To re-run and compile Lexer, parser and sym files in your terminal run.
+
+	$ make
+
+===============
+
+The following files should have been created
+
+basicTerminals-output.txt
+basicRegex-output.txt
+basicFails-output.txt
+
+=================
+
+To Remove output files:
+
+	make clean
