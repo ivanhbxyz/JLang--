@@ -14,20 +14,19 @@
 
 ```
 JLang--
-    - test-files
-        |
-        - basicFails.txt
-        - basicRegex.txt
-        - basicTerminals.txt
-    - grammar.cup
     - java-cup-11b-runtime.jar
     - java-cup-11b.jar
     - jflex-full-1.8.2.jar
     - LexerTest.java
     - Makefile
     - README.md
-    -tokens.jflex
-
+    - tokens.jflex
+    - test-files
+        |
+        - basicFails.txt
+        - basicRegex.txt
+        - basicTerminals.txt
+    - grammar.cup
 ```
 
 
