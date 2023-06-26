@@ -22,6 +22,7 @@ JLang--
     - README.md
     - tokens.jflex
     - grammar.cup
+    - <classes>.java
     - test-files
         |
         - basicFails.txt
