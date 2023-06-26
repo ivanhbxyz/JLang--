@@ -21,12 +21,13 @@ JLang--
     - Makefile
     - README.md
     - tokens.jflex
+    - grammar.cup
     - test-files
         |
         - basicFails.txt
         - basicRegex.txt
         - basicTerminals.txt
-    - grammar.cup
+    
 ```
 
 
